@@ -114,17 +114,18 @@ namespace QuanLyNhaTro.Migrations
                     b.Property<DateTime>("NgayKetThuc")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("PhongMaPhong")
-                        .HasColumnType("int");
+                    b.Property<decimal>("TienCoc")
+                        .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("SinhVienMaSV")
-                        .HasColumnType("int");
+                    b.Property<string>("TrangThai")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("MaHopDong");
 
-                    b.HasIndex("PhongMaPhong");
+                    b.HasIndex("MaPhong");
 
-                    b.HasIndex("SinhVienMaSV");
+                    b.HasIndex("MaSV");
 
                     b.ToTable("HopDongs");
                 });
@@ -145,11 +146,13 @@ namespace QuanLyNhaTro.Migrations
 
                     b.Property<string>("TenPhong")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("TrangThai")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.HasKey("MaPhong");
 
@@ -199,7 +202,7 @@ namespace QuanLyNhaTro.Migrations
             modelBuilder.Entity("QuanLyNhaTro.Data.HoaDon", b =>
                 {
                     b.HasOne("QuanLyNhaTro.Data.Phong", "Phong")
-                        .WithMany("HoaDons")
+                        .WithMany()
                         .HasForeignKey("PhongMaPhong")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -211,13 +214,13 @@ namespace QuanLyNhaTro.Migrations
                 {
                     b.HasOne("QuanLyNhaTro.Data.Phong", "Phong")
                         .WithMany("HopDongs")
-                        .HasForeignKey("PhongMaPhong")
+                        .HasForeignKey("MaPhong")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("QuanLyNhaTro.Data.SinhVien", "SinhVien")
                         .WithMany("HopDongs")
-                        .HasForeignKey("SinhVienMaSV")
+                        .HasForeignKey("MaSV")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -228,8 +231,6 @@ namespace QuanLyNhaTro.Migrations
 
             modelBuilder.Entity("QuanLyNhaTro.Data.Phong", b =>
                 {
-                    b.Navigation("HoaDons");
-
                     b.Navigation("HopDongs");
                 });
 

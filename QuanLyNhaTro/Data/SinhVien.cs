@@ -11,7 +11,7 @@ namespace QuanLyNhaTro.Data
     public class SinhVien
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Ép buộc tự tăng 1, 2, 3...
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] 
         public int MaSV { get; set; }
 
         [Required]

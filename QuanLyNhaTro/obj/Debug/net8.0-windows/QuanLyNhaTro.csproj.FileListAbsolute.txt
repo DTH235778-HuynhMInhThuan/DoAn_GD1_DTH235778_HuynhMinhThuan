@@ -1,10 +1,13 @@
 C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.csproj.AssemblyReference.cache
 C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.Form1.resources
+C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.Forms.frmPhong.resources
+C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.Forms.frmSinhVien.resources
 C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.csproj.GenerateResource.cache
 C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.GeneratedMSBuildEditorConfig.editorconfig
 C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.AssemblyInfoInputs.cache
 C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.AssemblyInfo.cs
 C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.csproj.CoreCompileInputs.cache
+C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.sourcelink.json
 C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\bin\Debug\net8.0-windows\QuanLyNhaTro.exe
 C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\bin\Debug\net8.0-windows\QuanLyNhaTro.dll.config
 C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\bin\Debug\net8.0-windows\QuanLyNhaTro.deps.json
@@ -119,5 +122,4 @@ C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\ref
 C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.pdb
 C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.genruntimeconfig.cache
 C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\ref\QuanLyNhaTro.dll
-C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.Forms.frmSinhVien.resources
-C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.Forms.frmPhong.resources
+C:\Laptrinh.NET_WindowsForm\DoAnCaNhan\QuanLyNhaTro\obj\Debug\net8.0-windows\QuanLyNhaTro.Forms.frmHopDong.resources

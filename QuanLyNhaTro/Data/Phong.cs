@@ -25,7 +25,7 @@ namespace QuanLyNhaTro.Data
         [StringLength(20)]
         public string TrangThai { get; set; } // Ví dụ: Trống, Đã thuê
 
-        // Liên kết với bảng HopDong (nếu có)
+        
         public ICollection<HopDong> HopDongs { get; set; }
     }
 }
